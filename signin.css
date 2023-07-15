@@ -1,0 +1,12 @@
+.container{
+margin-top: 200px;
+width: 2000px;
+background-image:url();
+}
+#emailHelp{
+    color:#fff!important;
+}
+.form-check-label{
+    font-size:25px;
+    color: #fff!important;
+}

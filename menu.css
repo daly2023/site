@@ -1,0 +1,78 @@
+.shopping-icon {
+  position: sticky;
+  bottom: 10px;
+  width: 48px;
+  height: 48px;
+  left: 95%;
+}
+  
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .buy1 {
+    position: absolute;
+    left: 18%;
+    bottom: 7%; /* Adjust this value to position the button as desired */
+    transform: translateX(-50%);
+    
+    
+    background-color: #fff9ed; /* Example background color */
+    color: #000000; /* Example text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .buy2 {
+    position: absolute;
+    left: 50.5%;
+    bottom: 7%; /* Adjust this value to position the button as desired */
+    transform: translateX(-50%);
+    
+    
+    background-color: #fff9ed; /* Example background color */
+    color: #000000; /* Example text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .buy3 {
+    position: absolute;
+    left: 83%;
+    bottom: 7%; /* Adjust this value to position the button as desired */
+    transform: translateX(-50%);
+    
+    
+    background-color: #fff9ed; /* Example background color */
+    color: #000000; /* Example text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+.buy1,
+.buy2,
+.buy3 {
+  position: absolute;
+  bottom: 7%;
+  transform: translateX(-50%);
+  background-color: #fff9ed;
+  color: #000000;
+  padding: 10px 20px;
+  border: 2px solid #000000; /* Add black border */
+  border-radius: 10px; /* Reduce border radius */
+  font-size: 16px;
+}
